@@ -1,2 +1,4 @@
-<h1>SVMAMP, A support-vector machine algorithm trained to classify antimicrobial peptides</h1>
+SVMAMP
+
+<h3><i>A support-vector machine algorithm trained to classify antimicrobial peptides</i></h3>
 
