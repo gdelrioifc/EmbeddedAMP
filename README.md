@@ -1,2 +1,2 @@
 # EmbeddedAMP
-Computer-based method to identify antimicrobial peptides embedded within proteins
+Computer-based method to identify antimicrobial peptides embedded in proteins
