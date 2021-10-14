@@ -1,5 +1,5 @@
 # EmbeddedAMP
-Computer-based method to identify antimicrobial peptides embedded in proteins
+<h3><i>Computer-based method to identify antimicrobial peptides embedded in proteins</i><h3>
 
 
 This repository contains codes and datasets used in the work entitled "Embedded-AMP: A distributed computational method for the systematic identification of antimicrobial peptides embedded in protein sequences" by German Melendrez Carballo, Karen Guerrero Vazquez, Gabriel Del Rio amd Carlos A. Brizuela.
