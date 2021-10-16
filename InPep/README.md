@@ -50,3 +50,33 @@ Another variant is to change the floting point type to use. By default, InProt u
 </ul>
 
 After any of these changes, the code may be compiled as described above.
+
+
+<h2><b>Executing InProt</b></h2>
+To learn about the options available during the execution of InProt, please type the following command:
+<ul>
+  <li>inprot -h</li>
+</ul>
+
+This will display the following information:
+
+<table border=0>
+ <tr><td colspan=2>InProt - In silico Proteolysis</td></tr>
+ <tr><td colspan=2>Usage: inprot [OPTIONS]</td></tr>
+ <tr><td colspan=2><br></td></tr>
+ <tr><td colspan=2><br></td></tr>
+ <tr><td colspan=2>Options:</td></tr>
+  <tr><td>-h, --help</td><td>Print this help message</td></tr>
+  <tr><td>-i, --input TEXT</td><td>Proteome's file where to extract the k-mers</td></tr>
+  <tr><td>-o, --output TEXT</td><td>Output's basename where to put the AMP-predicted k-mers</td></tr>
+  <tr><td>-s, --scaling TEXT</td><td>SVM's scaling factors configuration file</td></tr>
+  <tr><td>-m, --model TEXT</td><td>SVM's model file</td></tr>
+  <tr><td>-l, --lower UINT</td><td>Lower k-mer size (minimum = 10)</td></tr>
+  <tr><td>-u, --upper UINT</td><td>Upper k-mer size (maximum = 200)</td></tr>
+  <tr><td>-t, --threads INT</td><td>Number of threads (0 = for automatic determination (default). Maximum = XXX)</td></tr>
+  <tr><td>-w, --write UINT</td><td>Write predicted k-mers (0 = none, 1 = amps, 2 = namps, 3 = both, default = none)</td></tr>
+  <tr><td>-a, --aware</td><td>Enable aware mode (low memory consumption; default false)</td></tr>
+  <tr><td>-v, --verbose</td><td>Enable verbose mode (show extra information)</td></tr>
+</table>
+
+
