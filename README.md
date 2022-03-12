@@ -11,7 +11,7 @@ Three sets of codes are available in this site: InPep, SVMAMP and CAMPred.
 
 3. CAMPred sends requests to the CAMP web server to predict which k-mer classified by SVMAMP are validated as AMP.
 
-We also provide the AMP/non-AMP used to train SVMAMP and the proteomes that were used to validate the efficiency of these codes.
+We also provide the AMP/non-AMP dataset used to train SVMAMP and the proteomes that were used to validate the efficiency of these codes.
 
 In each code directory you will find the instructions to compile as well as the code dependencies and versions required.
 
